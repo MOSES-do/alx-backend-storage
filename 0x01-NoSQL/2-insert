@@ -1,0 +1,4 @@
+// Inserts a document in the school collection.
+// If collection doesn't exist it is automatically created
+//Doesn't have to be explicity created using - db.createCollection("school")
+db.school.insert({name: "Holberton school"});

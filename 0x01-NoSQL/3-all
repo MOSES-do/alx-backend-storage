@@ -1,0 +1,3 @@
+// Lists all documents in the school collection.
+//Equivalent to listing all rows/columns in a table (SQL)
+db.school.find().forEach(printjson);
